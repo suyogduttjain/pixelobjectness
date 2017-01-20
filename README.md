@@ -33,6 +33,8 @@ After execution demo.py will store pixel objectness results as matlab files.
 
 Please refer to show_results.m to see how to visualize and extract foreground masks.
 
+## Please cite these too if you use the code:
+
 [1] Caffe:
 
 ```sh
