@@ -2,6 +2,8 @@
 
 The following repository contains pretrained model for pixel objectness.
 
+Please visit our [project page](http://vision.cs.utexas.edu/projects/pixelobjectness/) for the paper and visual results.
+
 If you use this in your research, please cite the following paper:
 
 ```sh
