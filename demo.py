@@ -3,7 +3,7 @@ import sys
 import fnmatch
 
 #Caffe binary location from deeplab-v1 installation
-caffe_binary = '/vision/vision_users/suyog/deep_video_segmentation/code_release/pixel_objectness/deeplab-public/distribute/bin/caffe.bin' 
+caffe_binary = '/vision/vision_users/suyog/deep_video_segmentation/code_release/deeplab-public/distribute/bin/caffe.bin' 
 
 #Extension of images that need to be processed
 ext = 'JPEG'
