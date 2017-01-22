@@ -29,6 +29,8 @@ This model is trained using Deeplab-v1 caffe library. Please cite [1] and [2] if
 
 - Running demo.py will produce three files 1) input_list.txt : contains list of of input images, 2) output_list.txt: contains names to be used to store the output of pixel objectness 3) test.protoxt: prototxt file required for loading the pretrained model.
 
+- Please resize your images so that the maximum side is < 513, otherwise update the crop_size value in test_template.prototxt. Bigger crop sizes require larger gpu memory. 
+
 ## Visualizing the results:
 
 After execution demo.py will store pixel objectness results as matlab files.
