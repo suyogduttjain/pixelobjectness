@@ -15,6 +15,8 @@ If you use this in your research, please cite the following paper:
 }
 ```
 
+These models are free for research and academic purposes. However its patent pending so please contact us for any commercial use.
+
 ## Using the pretrained models:
 
 This model is trained using Deeplab-v1 caffe library. Please cite [1] and [2] if you use the code.
