@@ -54,5 +54,5 @@ test_file.close()
 
 weight_file_path = base_dir + '/pixel_objectness.caffemodel'
 cmd = caffe_binary + ' test --model=' + test_file_path + ' --weights=' + weight_file_path + ' --gpu=0 --iterations='+str(len(image_list))
-print cmd
+print(cmd)
 os.system(cmd)
